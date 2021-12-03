@@ -5,9 +5,107 @@
     <meta name="viewport" content="width=device-width">
     <title>Portfolio Site</title>
     <link href="CSS ASG1.css" rel="stylesheet" type="text/css" />
+
+    <!-- typing animation -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+
   </head>
   <body>
-    Hello world
+    <!-- button -->
+    <div class="scroll-up-btn">
+      <i class="fas fa-angle-up"></i>
+    </div>
+    <!-- home section start -->
+    <section class="home" id="home">
+      <div class="max-width">
+          <div class="home-content">
+              <div class="text-1">Welcome!</div>
+              <div class="text-2"><span class="typing"></span></div>
+              <div class="text-3">To my <span>Portfolio</span> page</div>
+              <a href = #about class = "start-btn">Start</a> 
+          </div>
+      </div>
+   </section>
+   <!-- start of about section -->
+    <section class = "about" id = "about">
+      <div class = "max-width">
+        <h2 class="title">About me</h2>
+        <div class="about-content">
+            <div class="column left">
+                <img src="Face IMG.jpg" alt="">
+            </div>
+            <div class="column right">
+                <div class="text"> </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ut voluptatum eveniet doloremque autem excepturi eaque, sit laboriosam voluptatem nisi delectus. Facere explicabo hic minus accusamus alias fuga nihil dolorum quae. Explicabo illo unde, odio consequatur ipsam possimus veritatis, placeat, ab molestiae velit inventore exercitationem consequuntur blanditiis omnis beatae. Dolor iste excepturi ratione soluta quas culpa voluptatum repudiandae harum non.</p>
+            </div>
+        </div>
+  </div>
+   </section>
+
+    <!-- start of footer code -->
+    <footer>
+      <div class = "max-width">
+        <div class="main-content">
+          <div class="left box">
+            <h2>Socials</h2>
+            <div class="content">
+              <p>Check out my social accounts to keep up to date with what I am doing! Some projects that I'm currently working on might get featured.</p>
+              <div class="social">
+                <a href="https://www.instagram.com/haihaidame/"><span class="fab fa-instagram"></span></a>
+                <a href="https://www.youtube.com/channel/UCIGGbgXxnTrY6CkCPK0hmRg/featured"><span class="fab fa-youtube"></span></a>
+              </div>
+            </div>
+          </div>
+  
+          <div class="center box">
+            <h2>Address</h2>
+            <div class="content">
+              <div class="place">
+                <span class="fas fa-map-marker-alt"></span>
+                <span class="text">Singapore</span>
+              </div>
+              <div class="phone">
+                <span class="fas fa-phone-alt"></span>
+                <span class="text">+65 8690-4500</span>
+              </div>
+              <div class="email">
+                <span class="fas fa-envelope"></span>
+                <span class="text">ABC@examplemail.com</span>
+              </div>
+            </div>
+          </div>
+  
+          <div class="right box">
+            <h2>Contact Me</h2>
+            <div class="content">
+              <form action="#">
+                <div class="email">
+                  <div class="text">Email *</div>
+                  <input type="email" required>
+                </div>
+                <div class="msg">
+                  <div class="text">Message *</div>
+                  <textarea rows="2" cols="25" required></textarea>
+                </div>
+                <div class="btn">
+                  <button type="submit">Send</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="bottom">
+          <center>
+            <span class="credit">Created By <a href = #about>Wei Xuan</a> | </span>
+            <span class="far fa-copyright"></span><span> 2020 All rights reserved.</span>
+          </center>
+        </div>
+      </div>
+    </footer>
+
     <script src="JS ASG1.js"></script>
   </body>
 </html>
