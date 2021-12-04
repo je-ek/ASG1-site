@@ -4,45 +4,101 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>Portfolio Site</title>
-    <link href="CSS ASG1.css" rel="stylesheet" type="text/css" />
 
-    <!-- typing animation -->
+    <!-- Styling -->
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link rel = "stylesheet" href = "'https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;1,600&family=Ubuntu:wght@400;500;700&display=swap'">
+    
+    <!-- Typing Animation Script -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
 
+    <!-- Icon Library -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
     <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
 
   </head>
-  <body>
-    <!-- button -->
-    <div class="scroll-up-btn">
-      <i class="fas fa-angle-up"></i>
-    </div>
+  <body>    
     <!-- home section start -->
     <section class="home" id="home">
       <div class="max-width">
           <div class="home-content">
-              <div class="text-1">Welcome!</div>
-              <div class="text-2"><span class="typing"></span></div>
-              <div class="text-3">To my <span>Portfolio</span> page</div>
+              <div class="line1">Welcome!</div>
+              <div class="line2"><span class="typing"></span></div>
+              <div class="line3">To my <span>Portfolio</span> page</div>
               <a href = #about class = "start-btn">Start</a> 
           </div>
       </div>
    </section>
+
    <!-- start of about section -->
     <section class = "about" id = "about">
       <div class = "max-width">
-        <h2 class="title">About me</h2>
-        <div class="about-content">
-            <div class="column left">
-                <img src="Face IMG.jpg" alt="">
-            </div>
-            <div class="column right">
-                <div class="text"> </div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ut voluptatum eveniet doloremque autem excepturi eaque, sit laboriosam voluptatem nisi delectus. Facere explicabo hic minus accusamus alias fuga nihil dolorum quae. Explicabo illo unde, odio consequatur ipsam possimus veritatis, placeat, ab molestiae velit inventore exercitationem consequuntur blanditiis omnis beatae. Dolor iste excepturi ratione soluta quas culpa voluptatum repudiandae harum non.</p>
-            </div>
+        <div class = "container">
+          <div class = "aboutLeft">
+            <h2 class="amTitle">About me</h2>
+          </div>
+          <div class= "aboutRight">
+            <img src= "Images/Face IMG.jpg" alt="image of my face">
+          </div>
         </div>
-  </div>
+        <div class = "about-content">
+          <div class = "aboutText">I am <span>Wong Wei Xuan</span></div>
+        </div>
+        <div class = "aboutPara">
+          Studied at <span class = "schools"></span>. <br>
+          From <span class = "years"></span>. <br>
+          Diploma: <p4>Immersive Media.<br></p4>
+          Birthday: <p5>8th July 2004.<br></p5>
+          Hobbies: <p6>Gaming & Anime.</p6>
+        </div>
+      </div>
+   </section>
+
+   <!-- start of skills & competencies -->
+   <section class = "sNc" id = "sNc">
+     <div class = "max-width">
+       <div class = "sT">
+         Skills & Competencies
+       </div>
+       <div class = "sNc-content">
+
+        <div class = "skills">
+
+           <div class = "card">
+             <i class = "fas fa-heart"></i>
+             <g>Empathy</g>
+             <p>I believe that my empathy will help greatly in the workplace, as I can easily relate to other people's problem thus can be able to work with them better to solve problems.</p>
+           </div>
+           <div class = "card">
+             <i class = "fas fa-clock"></i>
+             <g>Patience</g>
+             <p>Having patience is key to succeeding in life as in life, there are alot of matters that cannot be rushed. I like to solve matters calmly instead of panicking and trying solutions all over the place. I would become a great asset to the company as I can solve problems under immense pressure calmly.</p>
+           </div>
+           <div class = "card">
+             <i class="fas fa-comments"></i>
+             <g>Communication</g>
+             <p>I try to remain as amicable as possible no matter the situation as I value relationships over trivial matter. This attitude would be an asset to the company as I would try my very best to maintain a good relationship with the clients and this would help them to cooperate with the company in many deals.</p>
+            </div>
+
+        </div>
+
+        <div class = "competencies">
+          <div class = "card2">
+            <i class = "fas fa-file-code"></i>
+            <g>Basic Python Programming</g>
+            <p>Attained Basic Python Programming through Sem 1 Modules. I can code a simple grid game similar to Sims City.</p>
+          </div>
+          <div class = "card2">
+            <i class = "fas fa-gamepad"></i>
+            <g>Basic 3D Modeling</g>
+            <p>Currently attaining 3D Modeling through Sem 2 Modules. I can build a Ice Cream Truck with textures.</p>
+          </div>
+        </div>
+       </div>
+     </div>
    </section>
 
     <!-- start of footer code -->
@@ -106,6 +162,6 @@
       </div>
     </footer>
 
-    <script src="JS ASG1.js"></script>
+    <script src="javascript.js"></script>
   </body>
 </html>
